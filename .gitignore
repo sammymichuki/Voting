@@ -1,0 +1,13 @@
+# Ignore all environment files
+.env
+Backend/.env
+Frontend/.env
+
+# Node.js related ignores
+node_modules/
+.env.local
+dist/
+build/
+
+^T
+
