@@ -16,7 +16,7 @@ app.use(express.json());
 const db = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || 'Samy@2248',
+  password: process.env.DB_PASSWORD || '',
   database: process.env.DB_NAME || 'evoting_system',
   waitForConnections: true,
   connectionLimit: 10,
